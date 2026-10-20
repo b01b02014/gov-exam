@@ -116,6 +116,11 @@
   .cell.big{grid-row:span 2}
   .cell.big img,.cell.search img{border-bottom:1px solid var(--line)}
   .cell.tips{background:var(--gold-soft);border-color:transparent}
+  .rare{margin-top:22px;border:1px solid var(--line);border-radius:16px;background:var(--surface);padding:26px 28px;
+    display:grid;grid-template-columns:5fr 7fr;gap:28px;align-items:center}
+  .rare p{margin-top:8px;color:var(--text-2)}
+  .rare .pills{margin-top:0}
+  @media (max-width:720px){.rare{grid-template-columns:1fr;gap:18px;padding:22px}}
   .tips ul{list-style:none;margin-top:12px;display:grid;gap:10px}
   .tips li{padding-left:18px;position:relative;color:var(--text-2)}
   .tips li::before{content:"";position:absolute;left:0;top:.72em;width:8px;height:2px;background:var(--gold-strong)}
@@ -324,6 +329,20 @@
             <li>台、臺通用，打哪一個都查得到。</li>
           </ul>
         </div>
+      </div>
+    </div>
+    <div class="rare">
+      <div>
+        <h3>冷門考科也找得到</h3>
+        <p>國考岸收錄上千個考科，不只行政法、國文。小類科、國營事業、升資與證照考試裡的冷門科目，坊間很難找到整理好的考古題，搜尋框打科目名稱就有，每題一樣附詳解。</p>
+      </div>
+      <div class="pills">
+        <a class="pill" href="https://gov.examshore.com/exams?q=豬病學">經濟部聯招 豬病學</a>
+        <a class="pill" href="https://gov.examshore.com/exams?q=義大利語">導遊 義大利語</a>
+        <a class="pill" href="https://gov.examshore.com/exams?q=攝影測量">攝影測量與遙感探測</a>
+        <a class="pill" href="https://gov.examshore.com/exams?q=宗教人類學">宗教人類學</a>
+        <a class="pill" href="https://gov.examshore.com/exams?q=監獄行刑法">監獄行刑法</a>
+        <a class="pill" href="https://gov.examshore.com/exams?q=檔案管理">檔案管理學</a>
       </div>
     </div>
   </div>
